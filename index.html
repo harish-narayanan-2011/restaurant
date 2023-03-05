@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Harish Narayanan's Official Restaurant</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #222222;
+        color: white;
+      }
+    }
+    body {
+      font-family: "Inter", sans-serif;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    footer {
+      position: absolute;
+      bottom: 0px;
+    }
+
+  </style>
+  <body>
+    <h1>Harish Narayanan's official Restaurant</h1>
+
+    <form>
+      <div>
+        <label for="username">Enter your username:</label>
+        <input id="username" type="text" placeholder="My username" required />
+      </div>
+      <div>
+        <label for="">Enter your E-Mail ID: </label>
+        <input type="email" placeholder="My email" required />
+      </div>
+      <div>
+        <label for="phonenumber">Enter your Phone Number: </label>
+        <input
+          id="phonenumber"
+          type="numbers"
+          placeholder="1234567890"
+          maxlength="10"
+          required
+        />
+      </div>
+      <label for="fooditem">Select your food item: </label>
+      <select name="fooditem" id="fooditem">
+        <option value="noodles">Noodles</option>
+        <option value="pasta">Pasta</option>
+        <option value="dosa">Dosa</option>
+        <option value="puri">Puri</option>
+        <option value="hakka-noodles">Hakka Noodles</option>
+        <option value="masal-dosa">Masal Dosa</option>
+        <option value="ghee-dosa">Ghee Dosa</option>
+        <option value="idly">Idly</option>
+        <option value="pongal">Pongal</option>
+        <option value="chappathi">Chappathi</option>
+        <option value="puli-upma">Puli Upma</option>
+      </select>
+      <div>
+        <label for="password">Enter your password:</label>
+        <input type="password" placeholder="Hint: My Birthday" required />
+      </div>
+      <p>
+        Please note that this Restaurant only started now. Hence why it has only
+        11 food items. We are working on improving it. Each costs Rs.50,000.
+        Also, to submit the order, press the submit order button.
+      </p>
+      <button type="submit"><a href="thankyou.html">Submit Order</a></button>
+  </body>
+  <footer>v0.2</footer>
+</html>
